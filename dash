@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Report</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="report-container">
+    <iframe title="match stats" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=d3cad3b4-f351-41c3-9589-2c0dcf2a7e8a&autoAuth=true&ctid=0b578d97-bb35-4c75-863a-9280b97ff86e" frameborder="0" allowFullScreen="true"></iframe>
+  </div>
+</body>
+</html>
+<style>
+.report-container {
+  width: 100%;
+  max-width: 1140px; /* Ajoute une largeur maximale */
+  margin: 0 auto; /* Centre le rapport sur la page */
+}
+</style>
